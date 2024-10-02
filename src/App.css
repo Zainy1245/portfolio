@@ -17,8 +17,8 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items:bottom;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -34,5 +34,119 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  padding-top: 70px;
+  
+}
+.img{
+  width: 30px;
+  height: 30px;
+}
+.text-content {
+  max-width: 600px;
+  margin-right: 20px;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.text-content .highlight {
+  color: #00d1b2;
+  animation:  0.5s ease-in-out;
+}
+
+.text-content p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.download-btn {
+  background: #00b89c;
+  border: 2px solid #00d1b2;
+  color:white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 12px;
+  
+  cursor: pointer;
+}
+.tour-btn {
+  background:transparent;
+  border: 2px solid #00d1b2;
+  color:#00d1b2;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 12px;
+  
+  cursor: pointer;
+}
+
+.tour-btn:hover {
+  background-color: #00d1b2;
+  color: #fff;
+}
+
+.video-content {
+  max-width: 600px;
+  overflow: hidden;
+
+
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 700px) {
+  .hero {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .text-content {
+      order: 2;
+      max-width: 80%;
+      margin-right: 0;
+      text-align: left;
+      padding: 20px;
+      margin-right: 100px;
+  }
+
+  .video-content {
+      order: 1;
+  
+      max-width: 100%;
+  }
+
+  .text-content h1 {
+      font-size: 36px;
+  }
+
+  .text-content p {
+      font-size: 16px;
+  }
+
+  .buttons {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .download-btn, .tour-btn {
+      width: 100%;
+      font-size: 14px;
   }
 }

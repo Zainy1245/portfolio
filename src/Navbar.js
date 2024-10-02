@@ -3,38 +3,22 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-
-<nav className="navbar">
-<nav className="navbar">
-  <div className="navbar-left">
-    <a href="/" className="logo">
-      ShopNow
-    </a>
-  </div>
-  <div className="navbar-center">
-    <ul className="nav-links">
-      <li>
-        <a href="/products">Products</a>
-      </li>
-      <li>
-        <a href="/about">About Us</a>
-      </li>
-      <li>
-        <a href="/contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-  <div className="navbar-right">
-    <a href="/cart" className="cart-icon">
-      <i className="fas fa-shopping-cart"></i>
-      <span className="cart-count">0</span>
-    </a>
-    <a href="/account" className="user-icon">
-      <i className="fas fa-user"></i>
-    </a>
-  </div>
-</nav>
-</nav>
+<header>
+        <div className="logo">Zain-ul-Abdeen
+        </div>
+        <nav clasName="navbar">
+            <ul className="navbar-nav" id="navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Examples.html">Projets</a></li>
+                <li><a href="tour.html">Contact</a></li>
+                
+                <li><a href="help.html">Help</a></li>
+                <button className="download-btn-nav">Download CV</button>
+            </ul>
+            <div className="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+        
+    </header>
 );
 };
 
