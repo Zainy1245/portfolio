@@ -16,8 +16,10 @@ project.-templates {
     color: #00d1b2;
 }
 
-.project-templates p {
-    font-size: 25px;
+.project-templates> p {
+    font-size: 20px;
+    width: 70%;
+    margin-left: 200px;
     color: #666;
     margin-bottom: 40px;
     

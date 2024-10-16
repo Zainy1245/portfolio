@@ -5,12 +5,10 @@ const Templates = () => {
   return (
     <div className="project-templates">
       <h2>
-        Project <span className="highlight">Templates</span>
+        MY <span className="highlight">WORK</span>
       </h2>
       <p>
-        Lobe will automatically select the right machine learning architecture
-        for your project. Image classification is available now, with more
-        templates coming soon.
+        Recent Projects i have done using my skills in React 
       </p>
       <div className="template-cards">
         <div className="template-card">
@@ -20,9 +18,9 @@ const Templates = () => {
               Your browser does not support the video tag.
             </video>
           </div>
-          <h3>Image Classification</h3>
-          <p>Label an image based on its content.</p>
-          <button className="available-now">AVAILABLE NOW</button>
+          <h3>Constra</h3>
+          <p>Constra is a construction company with a vast netork around the globe. this is a Blog website with rich colors and beautiful design.</p>
+          
         </div>
 
         <div className="template-card">
@@ -34,7 +32,7 @@ const Templates = () => {
           </div>
           <h3>Object Detection</h3>
           <p>Locate an object inside of an image.</p>
-          <button className="coming-soon">COMING SOON</button>
+          
         </div>
 
         <div className="template-card">
@@ -46,7 +44,7 @@ const Templates = () => {
           </div>
           <h3>Data Classification</h3>
           <p>Label data in a table based on its content.</p>
-          <button className="coming-soon">COMING SOON</button>
+          
         </div>
       </div>
     </div>

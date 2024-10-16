@@ -41,9 +41,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   max-width: 1200px;
-  padding-top: 70px;
+  padding-top: 10px;
+  height: 100vh;
   
 }
 .img{

@@ -13,7 +13,7 @@ const Navbar = () => {
                 <li><a href="tour.html">Contact</a></li>
                 
                 <li><a href="help.html">Help</a></li>
-                <button className="download-btn-nav">Download CV</button>
+                
             </ul>
             <div className="menu-icon" onclick="toggleMenu()">&#9776;</div>
         </nav>
